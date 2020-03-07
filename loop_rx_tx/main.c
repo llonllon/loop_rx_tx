@@ -185,7 +185,7 @@ int main(void)
 	//ENABLE UART 0
 	UART_Enable(MXC_UART0);
 
-//PRINTF
+//PRINT
     printf("\n\n***** UART Example *****\n");
     printf("\nConnect UART1 TX (P2.16) to UART1 RX (P2.14) for this example.\n\n");
     printf(" System freq \t: %d Hz\n", SystemCoreClock);
